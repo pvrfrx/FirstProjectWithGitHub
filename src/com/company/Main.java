@@ -8,6 +8,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         System.out.println("Hi");
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        reader.readLine();
+        String sa = reader.readLine();
+        System.out.println(sa);
     }
 }
